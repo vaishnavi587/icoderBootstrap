@@ -27,35 +27,31 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5501/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="http://127.0.0.1:5501/about.html">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Topics
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Technology</a></li>
-                <li><a class="dropdown-item" href="#">Web Development</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Support</a></li>
-                <li><a class="dropdown-item" href="#">Write for Us</a></li>
-              </ul>
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Topics
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Technology</a>
+                    <a class="dropdown-item" href="#">Web Development</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Support</a>
+                    <a class="dropdown-item" href="#">Write for us</a>
+                </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="http://127.0.0.1:5501/contact.html">Contact Us</a>
             </li>
-          </ul>
+        </ul>
+        
           <form class="d-flex" role="search">
             <input
               class="form-control me-2"
